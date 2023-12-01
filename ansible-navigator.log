@@ -1,0 +1,224 @@
+2023-12-01T19:24:59.626331+00:00 WARNING 'ansible_navigator.image_manager.puller._log_message' Image inspection failed, image assumed to be corrupted or missing
+2023-12-01T19:24:59.626678+00:00 WARNING 'ansible_navigator.image_manager.puller._log_message' stdout: []
+
+2023-12-01T19:24:59.626711+00:00 WARNING 'ansible_navigator.image_manager.puller._log_message' stderr: Error: ee-supported-rhel8:latest: image not known
+
+2023-12-01T19:24:59.697812+00:00 ERROR 'ansible_navigator.image_manager.puller._log_message' Execution environment pull failed
+2023-12-01T19:29:10.037984+00:00 WARNING 'ansible_navigator.image_manager.puller._log_message' Image inspection failed, image assumed to be corrupted or missing
+2023-12-01T19:29:10.038344+00:00 WARNING 'ansible_navigator.image_manager.puller._log_message' stdout: []
+
+2023-12-01T19:29:10.038385+00:00 WARNING 'ansible_navigator.image_manager.puller._log_message' stderr: Error: ee-supported-rhel8:latest: image not known
+
+2023-12-01T19:29:10.125780+00:00 ERROR 'ansible_navigator.image_manager.puller._log_message' Execution environment pull failed
+2023-12-01T19:29:34.760900+00:00 WARNING 'ansible_navigator.image_manager.puller._log_message' Image inspection failed, image assumed to be corrupted or missing
+2023-12-01T19:29:34.761223+00:00 WARNING 'ansible_navigator.image_manager.puller._log_message' stdout: []
+
+2023-12-01T19:29:34.761256+00:00 WARNING 'ansible_navigator.image_manager.puller._log_message' stderr: Error: pah.automation.here/ee-supported-rhel8:latest: image not known
+
+2023-12-01T19:29:34.877137+00:00 ERROR 'ansible_navigator.image_manager.puller._log_message' Execution environment pull failed
+2023-12-01T19:29:48.133753+00:00 WARNING 'ansible_navigator.image_manager.puller._log_message' Image inspection failed, image assumed to be corrupted or missing
+2023-12-01T19:29:48.134013+00:00 WARNING 'ansible_navigator.image_manager.puller._log_message' stdout: []
+
+2023-12-01T19:29:48.134040+00:00 WARNING 'ansible_navigator.image_manager.puller._log_message' stderr: Error: invalid reference format
+
+2023-12-01T19:29:48.148787+00:00 ERROR 'ansible_navigator.image_manager.puller._log_message' Execution environment pull failed
+2023-12-01T19:29:54.617590+00:00 WARNING 'ansible_navigator.image_manager.puller._log_message' Image inspection failed, image assumed to be corrupted or missing
+2023-12-01T19:29:54.617873+00:00 WARNING 'ansible_navigator.image_manager.puller._log_message' stdout: []
+
+2023-12-01T19:29:54.617899+00:00 WARNING 'ansible_navigator.image_manager.puller._log_message' stderr: Error: invalid reference format
+
+2023-12-01T19:29:54.633564+00:00 ERROR 'ansible_navigator.image_manager.puller._log_message' Execution environment pull failed
+2023-12-01T19:30:08.597117+00:00 WARNING 'ansible_navigator.image_manager.puller._log_message' Image inspection failed, image assumed to be corrupted or missing
+2023-12-01T19:30:08.597431+00:00 WARNING 'ansible_navigator.image_manager.puller._log_message' stdout: []
+
+2023-12-01T19:30:08.597456+00:00 WARNING 'ansible_navigator.image_manager.puller._log_message' stderr: Error: pah.automation.here/ee-supported-rhel8:latest: image not known
+
+2023-12-01T19:30:08.688263+00:00 ERROR 'ansible_navigator.image_manager.puller._log_message' Execution environment pull failed
+2023-12-01T19:30:11.748194+00:00 WARNING 'ansible_navigator.image_manager.puller._log_message' Image inspection failed, image assumed to be corrupted or missing
+2023-12-01T19:30:11.748502+00:00 WARNING 'ansible_navigator.image_manager.puller._log_message' stdout: []
+
+2023-12-01T19:30:11.748531+00:00 WARNING 'ansible_navigator.image_manager.puller._log_message' stderr: Error: pah.automation.here/ee-supported-rhel8:latest: image not known
+
+2023-12-01T19:30:11.853313+00:00 ERROR 'ansible_navigator.image_manager.puller._log_message' Execution environment pull failed
+2023-12-01T19:31:24.901309+00:00 WARNING 'ansible_navigator.image_manager.puller._log_message' Image inspection failed, image assumed to be corrupted or missing
+2023-12-01T19:31:24.901620+00:00 WARNING 'ansible_navigator.image_manager.puller._log_message' stdout: []
+
+2023-12-01T19:31:24.901654+00:00 WARNING 'ansible_navigator.image_manager.puller._log_message' stderr: Error: pah.automation.here/ee-supported-rhel8:latest: image not known
+
+2023-12-01T19:31:25.006709+00:00 ERROR 'ansible_navigator.image_manager.puller._log_message' Execution environment pull failed
+2023-12-01T19:31:37.110737+00:00 WARNING 'ansible_navigator.image_manager.puller._log_message' Image inspection failed, image assumed to be corrupted or missing
+2023-12-01T19:31:37.111035+00:00 WARNING 'ansible_navigator.image_manager.puller._log_message' stdout: []
+
+2023-12-01T19:31:37.111066+00:00 WARNING 'ansible_navigator.image_manager.puller._log_message' stderr: Error: ee-supported-rhel8:latest: image not known
+
+2023-12-01T19:31:37.199698+00:00 ERROR 'ansible_navigator.image_manager.puller._log_message' Execution environment pull failed
+2023-12-01T19:32:33.072594+00:00 WARNING 'ansible_navigator.image_manager.puller._log_message' Image inspection failed, image assumed to be corrupted or missing
+2023-12-01T19:32:33.072847+00:00 WARNING 'ansible_navigator.image_manager.puller._log_message' stdout: []
+
+2023-12-01T19:32:33.072875+00:00 WARNING 'ansible_navigator.image_manager.puller._log_message' stderr: Error: pah.automation.here/ee-supported-rhel8:latest: image not known
+
+2023-12-01T19:32:33.161221+00:00 ERROR 'ansible_navigator.image_manager.puller._log_message' Execution environment pull failed
+2023-12-01T19:34:44.107882+00:00 WARNING 'ansible_navigator.image_manager.puller._log_message' Image inspection failed, image assumed to be corrupted or missing
+2023-12-01T19:34:44.108194+00:00 WARNING 'ansible_navigator.image_manager.puller._log_message' stdout: []
+
+2023-12-01T19:34:44.108230+00:00 WARNING 'ansible_navigator.image_manager.puller._log_message' stderr: Error: invalid reference format
+
+2023-12-01T19:34:44.124850+00:00 ERROR 'ansible_navigator.image_manager.puller._log_message' Execution environment pull failed
+2023-12-01T19:34:57.842418+00:00 WARNING 'ansible_navigator.image_manager.puller._log_message' Image inspection failed, image assumed to be corrupted or missing
+2023-12-01T19:34:57.842686+00:00 WARNING 'ansible_navigator.image_manager.puller._log_message' stdout: []
+
+2023-12-01T19:34:57.842713+00:00 WARNING 'ansible_navigator.image_manager.puller._log_message' stderr: Error: pah.automation.here/ee-supported-rhel8:latest: image not known
+
+2023-12-01T19:34:57.933926+00:00 ERROR 'ansible_navigator.image_manager.puller._log_message' Execution environment pull failed
+2023-12-01T19:39:22.337858+00:00 WARNING 'ansible_navigator.image_manager.puller._log_message' Image inspection failed, image assumed to be corrupted or missing
+2023-12-01T19:39:22.338142+00:00 WARNING 'ansible_navigator.image_manager.puller._log_message' stdout: []
+
+2023-12-01T19:39:22.338171+00:00 WARNING 'ansible_navigator.image_manager.puller._log_message' stderr: Error: pah.automation.here/ee-supported-rhel8:latest: image not known
+
+2023-12-01T19:40:23.761095+00:00 ERROR 'ansible_navigator.actions.collections._parse' /usr/share/ansible/collections/ansible_collections/ansible/network/roles/resource_manager/meta/argument_specs.yml Failed to find argument_specs.yml for role in ansible.network.
+2023-12-01T19:40:23.761510+00:00 ERROR 'ansible_navigator.actions.collections._parse' /usr/share/ansible/collections/ansible_collections/ansible/network/roles/resource_manager/meta/main.yml Failed to find main.yml for role in ansible.network.
+2023-12-01T19:40:23.761556+00:00 ERROR 'ansible_navigator.actions.collections._parse' /usr/share/ansible/collections/ansible_collections/redhat/insights/roles/compliance/meta/argument_specs.yml Failed to find argument_specs.yml for role in redhat.insights.
+2023-12-01T19:40:23.761578+00:00 ERROR 'ansible_navigator.actions.collections._parse' /usr/share/ansible/collections/ansible_collections/redhat/insights/roles/insights_client/meta/argument_specs.yml Failed to find argument_specs.yml for role in redhat.insights.
+2023-12-01T19:40:23.761599+00:00 ERROR 'ansible_navigator.actions.collections._parse' /usr/share/ansible/collections/ansible_collections/redhat/rhv/roles/cluster_upgrade/meta/argument_specs.yml Failed to find argument_specs.yml for role in redhat.rhv.
+2023-12-01T19:40:23.761620+00:00 ERROR 'ansible_navigator.actions.collections._parse' /usr/share/ansible/collections/ansible_collections/redhat/rhv/roles/cluster_upgrade/meta/main.yml Failed to find main.yml for role in redhat.rhv.
+2023-12-01T19:40:23.761641+00:00 ERROR 'ansible_navigator.actions.collections._parse' /usr/share/ansible/collections/ansible_collections/redhat/rhv/roles/disaster_recovery/meta/argument_specs.yml Failed to find argument_specs.yml for role in redhat.rhv.
+2023-12-01T19:40:23.761657+00:00 ERROR 'ansible_navigator.actions.collections._parse' /usr/share/ansible/collections/ansible_collections/redhat/rhv/roles/disaster_recovery/meta/main.yml Failed to find main.yml for role in redhat.rhv.
+2023-12-01T19:40:23.761676+00:00 ERROR 'ansible_navigator.actions.collections._parse' /usr/share/ansible/collections/ansible_collections/redhat/rhv/roles/engine_setup/meta/argument_specs.yml Failed to find argument_specs.yml for role in redhat.rhv.
+2023-12-01T19:40:23.761691+00:00 ERROR 'ansible_navigator.actions.collections._parse' /usr/share/ansible/collections/ansible_collections/redhat/rhv/roles/engine_setup/meta/main.yml Failed to find main.yml for role in redhat.rhv.
+2023-12-01T19:40:23.761707+00:00 ERROR 'ansible_navigator.actions.collections._parse' /usr/share/ansible/collections/ansible_collections/redhat/rhv/roles/hosted_engine_setup/meta/argument_specs.yml Failed to find argument_specs.yml for role in redhat.rhv.
+2023-12-01T19:40:23.761722+00:00 ERROR 'ansible_navigator.actions.collections._parse' /usr/share/ansible/collections/ansible_collections/redhat/rhv/roles/hosted_engine_setup/meta/main.yml Failed to find main.yml for role in redhat.rhv.
+2023-12-01T19:40:23.761737+00:00 ERROR 'ansible_navigator.actions.collections._parse' /usr/share/ansible/collections/ansible_collections/redhat/rhv/roles/image_template/meta/argument_specs.yml Failed to find argument_specs.yml for role in redhat.rhv.
+2023-12-01T19:40:23.761752+00:00 ERROR 'ansible_navigator.actions.collections._parse' /usr/share/ansible/collections/ansible_collections/redhat/rhv/roles/image_template/meta/main.yml Failed to find main.yml for role in redhat.rhv.
+2023-12-01T19:40:23.761766+00:00 ERROR 'ansible_navigator.actions.collections._parse' /usr/share/ansible/collections/ansible_collections/redhat/rhv/roles/infra/meta/argument_specs.yml Failed to find argument_specs.yml for role in redhat.rhv.
+2023-12-01T19:40:23.761781+00:00 ERROR 'ansible_navigator.actions.collections._parse' /usr/share/ansible/collections/ansible_collections/redhat/rhv/roles/infra/meta/main.yml Failed to find main.yml for role in redhat.rhv.
+2023-12-01T19:40:23.761797+00:00 ERROR 'ansible_navigator.actions.collections._parse' /usr/share/ansible/collections/ansible_collections/redhat/rhv/roles/remove_stale_lun/meta/argument_specs.yml Failed to find argument_specs.yml for role in redhat.rhv.
+2023-12-01T19:40:23.761811+00:00 ERROR 'ansible_navigator.actions.collections._parse' /usr/share/ansible/collections/ansible_collections/redhat/rhv/roles/remove_stale_lun/meta/main.yml Failed to find main.yml for role in redhat.rhv.
+2023-12-01T19:40:23.761826+00:00 ERROR 'ansible_navigator.actions.collections._parse' /usr/share/ansible/collections/ansible_collections/redhat/rhv/roles/repositories/meta/argument_specs.yml Failed to find argument_specs.yml for role in redhat.rhv.
+2023-12-01T19:40:23.761840+00:00 ERROR 'ansible_navigator.actions.collections._parse' /usr/share/ansible/collections/ansible_collections/redhat/rhv/roles/repositories/meta/main.yml Failed to find main.yml for role in redhat.rhv.
+2023-12-01T19:40:23.761855+00:00 ERROR 'ansible_navigator.actions.collections._parse' /usr/share/ansible/collections/ansible_collections/redhat/rhv/roles/shutdown_env/meta/argument_specs.yml Failed to find argument_specs.yml for role in redhat.rhv.
+2023-12-01T19:40:23.761869+00:00 ERROR 'ansible_navigator.actions.collections._parse' /usr/share/ansible/collections/ansible_collections/redhat/rhv/roles/shutdown_env/meta/main.yml Failed to find main.yml for role in redhat.rhv.
+2023-12-01T19:40:23.761886+00:00 ERROR 'ansible_navigator.actions.collections._parse' /usr/share/ansible/collections/ansible_collections/redhat/rhv/roles/vm_infra/meta/argument_specs.yml Failed to find argument_specs.yml for role in redhat.rhv.
+2023-12-01T19:40:23.761901+00:00 ERROR 'ansible_navigator.actions.collections._parse' /usr/share/ansible/collections/ansible_collections/redhat/rhv/roles/vm_infra/meta/main.yml Failed to find main.yml for role in redhat.rhv.
+2023-12-01T19:40:23.761916+00:00 ERROR 'ansible_navigator.actions.collections._parse' /usr/share/ansible/collections/ansible_collections/redhat/satellite/roles/activation_keys/meta/argument_specs.yml Failed to find argument_specs.yml for role in redhat.satellite.
+2023-12-01T19:40:23.761931+00:00 ERROR 'ansible_navigator.actions.collections._parse' /usr/share/ansible/collections/ansible_collections/redhat/satellite/roles/activation_keys/meta/main.yml Failed to find main.yml for role in redhat.satellite.
+2023-12-01T19:40:23.761958+00:00 ERROR 'ansible_navigator.actions.collections._parse' /usr/share/ansible/collections/ansible_collections/redhat/satellite/roles/auth_sources_ldap/meta/argument_specs.yml Failed to find argument_specs.yml for role in redhat.satellite.
+2023-12-01T19:40:23.761974+00:00 ERROR 'ansible_navigator.actions.collections._parse' /usr/share/ansible/collections/ansible_collections/redhat/satellite/roles/auth_sources_ldap/meta/main.yml Failed to find main.yml for role in redhat.satellite.
+2023-12-01T19:40:23.761988+00:00 ERROR 'ansible_navigator.actions.collections._parse' /usr/share/ansible/collections/ansible_collections/redhat/satellite/roles/compute_profiles/meta/argument_specs.yml Failed to find argument_specs.yml for role in redhat.satellite.
+2023-12-01T19:40:23.762003+00:00 ERROR 'ansible_navigator.actions.collections._parse' /usr/share/ansible/collections/ansible_collections/redhat/satellite/roles/compute_profiles/meta/main.yml Failed to find main.yml for role in redhat.satellite.
+2023-12-01T19:40:23.762017+00:00 ERROR 'ansible_navigator.actions.collections._parse' /usr/share/ansible/collections/ansible_collections/redhat/satellite/roles/compute_resources/meta/argument_specs.yml Failed to find argument_specs.yml for role in redhat.satellite.
+2023-12-01T19:40:23.762032+00:00 ERROR 'ansible_navigator.actions.collections._parse' /usr/share/ansible/collections/ansible_collections/redhat/satellite/roles/compute_resources/meta/main.yml Failed to find main.yml for role in redhat.satellite.
+2023-12-01T19:40:23.762047+00:00 ERROR 'ansible_navigator.actions.collections._parse' /usr/share/ansible/collections/ansible_collections/redhat/satellite/roles/content_credentials/meta/argument_specs.yml Failed to find argument_specs.yml for role in redhat.satellite.
+2023-12-01T19:40:23.762061+00:00 ERROR 'ansible_navigator.actions.collections._parse' /usr/share/ansible/collections/ansible_collections/redhat/satellite/roles/content_credentials/meta/main.yml Failed to find main.yml for role in redhat.satellite.
+2023-12-01T19:40:23.762075+00:00 ERROR 'ansible_navigator.actions.collections._parse' /usr/share/ansible/collections/ansible_collections/redhat/satellite/roles/content_rhel/meta/argument_specs.yml Failed to find argument_specs.yml for role in redhat.satellite.
+2023-12-01T19:40:23.762089+00:00 ERROR 'ansible_navigator.actions.collections._parse' /usr/share/ansible/collections/ansible_collections/redhat/satellite/roles/content_rhel/meta/main.yml Failed to find main.yml for role in redhat.satellite.
+2023-12-01T19:40:23.762104+00:00 ERROR 'ansible_navigator.actions.collections._parse' /usr/share/ansible/collections/ansible_collections/redhat/satellite/roles/content_view_publish/meta/argument_specs.yml Failed to find argument_specs.yml for role in redhat.satellite.
+2023-12-01T19:40:23.762118+00:00 ERROR 'ansible_navigator.actions.collections._parse' /usr/share/ansible/collections/ansible_collections/redhat/satellite/roles/content_view_publish/meta/main.yml Failed to find main.yml for role in redhat.satellite.
+2023-12-01T19:40:23.762136+00:00 ERROR 'ansible_navigator.actions.collections._parse' /usr/share/ansible/collections/ansible_collections/redhat/satellite/roles/content_view_version_cleanup/meta/argument_specs.yml Failed to find argument_specs.yml for role in redhat.satellite.
+2023-12-01T19:40:23.762151+00:00 ERROR 'ansible_navigator.actions.collections._parse' /usr/share/ansible/collections/ansible_collections/redhat/satellite/roles/content_view_version_cleanup/meta/main.yml Failed to find main.yml for role in redhat.satellite.
+2023-12-01T19:40:23.762166+00:00 ERROR 'ansible_navigator.actions.collections._parse' /usr/share/ansible/collections/ansible_collections/redhat/satellite/roles/content_views/meta/argument_specs.yml Failed to find argument_specs.yml for role in redhat.satellite.
+2023-12-01T19:40:23.762180+00:00 ERROR 'ansible_navigator.actions.collections._parse' /usr/share/ansible/collections/ansible_collections/redhat/satellite/roles/content_views/meta/main.yml Failed to find main.yml for role in redhat.satellite.
+2023-12-01T19:40:23.762194+00:00 ERROR 'ansible_navigator.actions.collections._parse' /usr/share/ansible/collections/ansible_collections/redhat/satellite/roles/convert2rhel/meta/argument_specs.yml Failed to find argument_specs.yml for role in redhat.satellite.
+2023-12-01T19:40:23.762208+00:00 ERROR 'ansible_navigator.actions.collections._parse' /usr/share/ansible/collections/ansible_collections/redhat/satellite/roles/convert2rhel/meta/main.yml Failed to find main.yml for role in redhat.satellite.
+2023-12-01T19:40:23.762222+00:00 ERROR 'ansible_navigator.actions.collections._parse' /usr/share/ansible/collections/ansible_collections/redhat/satellite/roles/domains/meta/argument_specs.yml Failed to find argument_specs.yml for role in redhat.satellite.
+2023-12-01T19:40:23.762236+00:00 ERROR 'ansible_navigator.actions.collections._parse' /usr/share/ansible/collections/ansible_collections/redhat/satellite/roles/domains/meta/main.yml Failed to find main.yml for role in redhat.satellite.
+2023-12-01T19:40:23.762260+00:00 ERROR 'ansible_navigator.actions.collections._parse' /usr/share/ansible/collections/ansible_collections/redhat/satellite/roles/hostgroups/meta/argument_specs.yml Failed to find argument_specs.yml for role in redhat.satellite.
+2023-12-01T19:40:23.762275+00:00 ERROR 'ansible_navigator.actions.collections._parse' /usr/share/ansible/collections/ansible_collections/redhat/satellite/roles/hostgroups/meta/main.yml Failed to find main.yml for role in redhat.satellite.
+2023-12-01T19:40:23.762290+00:00 ERROR 'ansible_navigator.actions.collections._parse' /usr/share/ansible/collections/ansible_collections/redhat/satellite/roles/lifecycle_environments/meta/argument_specs.yml Failed to find argument_specs.yml for role in redhat.satellite.
+2023-12-01T19:40:23.762304+00:00 ERROR 'ansible_navigator.actions.collections._parse' /usr/share/ansible/collections/ansible_collections/redhat/satellite/roles/lifecycle_environments/meta/main.yml Failed to find main.yml for role in redhat.satellite.
+2023-12-01T19:40:23.762318+00:00 ERROR 'ansible_navigator.actions.collections._parse' /usr/share/ansible/collections/ansible_collections/redhat/satellite/roles/manifest/meta/argument_specs.yml Failed to find argument_specs.yml for role in redhat.satellite.
+2023-12-01T19:40:23.762333+00:00 ERROR 'ansible_navigator.actions.collections._parse' /usr/share/ansible/collections/ansible_collections/redhat/satellite/roles/manifest/meta/main.yml Failed to find main.yml for role in redhat.satellite.
+2023-12-01T19:40:23.762347+00:00 ERROR 'ansible_navigator.actions.collections._parse' /usr/share/ansible/collections/ansible_collections/redhat/satellite/roles/operatingsystems/meta/argument_specs.yml Failed to find argument_specs.yml for role in redhat.satellite.
+2023-12-01T19:40:23.762361+00:00 ERROR 'ansible_navigator.actions.collections._parse' /usr/share/ansible/collections/ansible_collections/redhat/satellite/roles/operatingsystems/meta/main.yml Failed to find main.yml for role in redhat.satellite.
+2023-12-01T19:40:23.762377+00:00 ERROR 'ansible_navigator.actions.collections._parse' /usr/share/ansible/collections/ansible_collections/redhat/satellite/roles/organizations/meta/argument_specs.yml Failed to find argument_specs.yml for role in redhat.satellite.
+2023-12-01T19:40:23.762391+00:00 ERROR 'ansible_navigator.actions.collections._parse' /usr/share/ansible/collections/ansible_collections/redhat/satellite/roles/organizations/meta/main.yml Failed to find main.yml for role in redhat.satellite.
+2023-12-01T19:40:23.762405+00:00 ERROR 'ansible_navigator.actions.collections._parse' /usr/share/ansible/collections/ansible_collections/redhat/satellite/roles/provisioning_templates/meta/argument_specs.yml Failed to find argument_specs.yml for role in redhat.satellite.
+2023-12-01T19:40:23.762419+00:00 ERROR 'ansible_navigator.actions.collections._parse' /usr/share/ansible/collections/ansible_collections/redhat/satellite/roles/provisioning_templates/meta/main.yml Failed to find main.yml for role in redhat.satellite.
+2023-12-01T19:40:23.762433+00:00 ERROR 'ansible_navigator.actions.collections._parse' /usr/share/ansible/collections/ansible_collections/redhat/satellite/roles/repositories/meta/argument_specs.yml Failed to find argument_specs.yml for role in redhat.satellite.
+2023-12-01T19:40:23.762448+00:00 ERROR 'ansible_navigator.actions.collections._parse' /usr/share/ansible/collections/ansible_collections/redhat/satellite/roles/repositories/meta/main.yml Failed to find main.yml for role in redhat.satellite.
+2023-12-01T19:40:23.762461+00:00 ERROR 'ansible_navigator.actions.collections._parse' /usr/share/ansible/collections/ansible_collections/redhat/satellite/roles/settings/meta/argument_specs.yml Failed to find argument_specs.yml for role in redhat.satellite.
+2023-12-01T19:40:23.762476+00:00 ERROR 'ansible_navigator.actions.collections._parse' /usr/share/ansible/collections/ansible_collections/redhat/satellite/roles/settings/meta/main.yml Failed to find main.yml for role in redhat.satellite.
+2023-12-01T19:40:23.762490+00:00 ERROR 'ansible_navigator.actions.collections._parse' /usr/share/ansible/collections/ansible_collections/redhat/satellite/roles/subnets/meta/argument_specs.yml Failed to find argument_specs.yml for role in redhat.satellite.
+2023-12-01T19:40:23.762504+00:00 ERROR 'ansible_navigator.actions.collections._parse' /usr/share/ansible/collections/ansible_collections/redhat/satellite/roles/subnets/meta/main.yml Failed to find main.yml for role in redhat.satellite.
+2023-12-01T19:40:23.762518+00:00 ERROR 'ansible_navigator.actions.collections._parse' /usr/share/ansible/collections/ansible_collections/redhat/satellite/roles/sync_plans/meta/argument_specs.yml Failed to find argument_specs.yml for role in redhat.satellite.
+2023-12-01T19:40:23.762532+00:00 ERROR 'ansible_navigator.actions.collections._parse' /usr/share/ansible/collections/ansible_collections/redhat/satellite/roles/sync_plans/meta/main.yml Failed to find main.yml for role in redhat.satellite.
+2023-12-01T19:40:23.762547+00:00 ERROR 'ansible_navigator.actions.collections._parse' /usr/share/ansible/collections/ansible_collections/amazon/aws/plugins/modules/lambda.py AnsibleParserError (get_docstring): Unable to parse documentation in python file '/usr/share/ansible/collections/ansible_collections/amazon/aws/plugins/modules/lambda.py': while scanning a plain scalar
+  in "<unicode string>", line 44, column 37
+found unexpected ':'
+  in "<unicode string>", line 44, column 40. while scanning a plain scalar
+  in "<unicode string>", line 44, column 37
+found unexpected ':'
+  in "<unicode string>", line 44, column 40
+2023-12-01T19:40:23.762563+00:00 ERROR 'ansible_navigator.actions.collections._parse' /usr/share/ansible/collections/ansible_collections/amazon/aws/plugins/modules/lambda_info.py AnsibleParserError (get_docstring): Unable to parse documentation in python file '/usr/share/ansible/collections/ansible_collections/amazon/aws/plugins/modules/lambda_info.py': while scanning a plain scalar
+  in "<unicode string>", line 48, column 37
+found unexpected ':'
+  in "<unicode string>", line 48, column 40. while scanning a plain scalar
+  in "<unicode string>", line 48, column 37
+found unexpected ':'
+  in "<unicode string>", line 48, column 40
+2023-12-01T19:40:23.762579+00:00 ERROR 'ansible_navigator.actions.collections._parse' /usr/share/ansible/collections/ansible_collections/redhat/rhv/plugins/test/ovirt_proxied_check.py AttributeError (get_docstring): 'AnsibleUnicode' object has no attribute 'get'
+2023-12-01T19:59:53.556386+00:00 ERROR 'ansible_navigator.actions.collections._parse' /usr/share/ansible/collections/ansible_collections/ansible/network/roles/resource_manager/meta/argument_specs.yml Failed to find argument_specs.yml for role in ansible.network.
+2023-12-01T19:59:53.556710+00:00 ERROR 'ansible_navigator.actions.collections._parse' /usr/share/ansible/collections/ansible_collections/ansible/network/roles/resource_manager/meta/main.yml Failed to find main.yml for role in ansible.network.
+2023-12-01T19:59:53.556742+00:00 ERROR 'ansible_navigator.actions.collections._parse' /usr/share/ansible/collections/ansible_collections/redhat/insights/roles/compliance/meta/argument_specs.yml Failed to find argument_specs.yml for role in redhat.insights.
+2023-12-01T19:59:53.556757+00:00 ERROR 'ansible_navigator.actions.collections._parse' /usr/share/ansible/collections/ansible_collections/redhat/insights/roles/insights_client/meta/argument_specs.yml Failed to find argument_specs.yml for role in redhat.insights.
+2023-12-01T19:59:53.556770+00:00 ERROR 'ansible_navigator.actions.collections._parse' /usr/share/ansible/collections/ansible_collections/redhat/rhv/roles/cluster_upgrade/meta/argument_specs.yml Failed to find argument_specs.yml for role in redhat.rhv.
+2023-12-01T19:59:53.556783+00:00 ERROR 'ansible_navigator.actions.collections._parse' /usr/share/ansible/collections/ansible_collections/redhat/rhv/roles/cluster_upgrade/meta/main.yml Failed to find main.yml for role in redhat.rhv.
+2023-12-01T19:59:53.556795+00:00 ERROR 'ansible_navigator.actions.collections._parse' /usr/share/ansible/collections/ansible_collections/redhat/rhv/roles/disaster_recovery/meta/argument_specs.yml Failed to find argument_specs.yml for role in redhat.rhv.
+2023-12-01T19:59:53.556807+00:00 ERROR 'ansible_navigator.actions.collections._parse' /usr/share/ansible/collections/ansible_collections/redhat/rhv/roles/disaster_recovery/meta/main.yml Failed to find main.yml for role in redhat.rhv.
+2023-12-01T19:59:53.556819+00:00 ERROR 'ansible_navigator.actions.collections._parse' /usr/share/ansible/collections/ansible_collections/redhat/rhv/roles/engine_setup/meta/argument_specs.yml Failed to find argument_specs.yml for role in redhat.rhv.
+2023-12-01T19:59:53.556830+00:00 ERROR 'ansible_navigator.actions.collections._parse' /usr/share/ansible/collections/ansible_collections/redhat/rhv/roles/engine_setup/meta/main.yml Failed to find main.yml for role in redhat.rhv.
+2023-12-01T19:59:53.556841+00:00 ERROR 'ansible_navigator.actions.collections._parse' /usr/share/ansible/collections/ansible_collections/redhat/rhv/roles/hosted_engine_setup/meta/argument_specs.yml Failed to find argument_specs.yml for role in redhat.rhv.
+2023-12-01T19:59:53.556853+00:00 ERROR 'ansible_navigator.actions.collections._parse' /usr/share/ansible/collections/ansible_collections/redhat/rhv/roles/hosted_engine_setup/meta/main.yml Failed to find main.yml for role in redhat.rhv.
+2023-12-01T19:59:53.556864+00:00 ERROR 'ansible_navigator.actions.collections._parse' /usr/share/ansible/collections/ansible_collections/redhat/rhv/roles/image_template/meta/argument_specs.yml Failed to find argument_specs.yml for role in redhat.rhv.
+2023-12-01T19:59:53.556875+00:00 ERROR 'ansible_navigator.actions.collections._parse' /usr/share/ansible/collections/ansible_collections/redhat/rhv/roles/image_template/meta/main.yml Failed to find main.yml for role in redhat.rhv.
+2023-12-01T19:59:53.556886+00:00 ERROR 'ansible_navigator.actions.collections._parse' /usr/share/ansible/collections/ansible_collections/redhat/rhv/roles/infra/meta/argument_specs.yml Failed to find argument_specs.yml for role in redhat.rhv.
+2023-12-01T19:59:53.556901+00:00 ERROR 'ansible_navigator.actions.collections._parse' /usr/share/ansible/collections/ansible_collections/redhat/rhv/roles/infra/meta/main.yml Failed to find main.yml for role in redhat.rhv.
+2023-12-01T19:59:53.556913+00:00 ERROR 'ansible_navigator.actions.collections._parse' /usr/share/ansible/collections/ansible_collections/redhat/rhv/roles/remove_stale_lun/meta/argument_specs.yml Failed to find argument_specs.yml for role in redhat.rhv.
+2023-12-01T19:59:53.556926+00:00 ERROR 'ansible_navigator.actions.collections._parse' /usr/share/ansible/collections/ansible_collections/redhat/rhv/roles/remove_stale_lun/meta/main.yml Failed to find main.yml for role in redhat.rhv.
+2023-12-01T19:59:53.556946+00:00 ERROR 'ansible_navigator.actions.collections._parse' /usr/share/ansible/collections/ansible_collections/redhat/rhv/roles/repositories/meta/argument_specs.yml Failed to find argument_specs.yml for role in redhat.rhv.
+2023-12-01T19:59:53.556960+00:00 ERROR 'ansible_navigator.actions.collections._parse' /usr/share/ansible/collections/ansible_collections/redhat/rhv/roles/repositories/meta/main.yml Failed to find main.yml for role in redhat.rhv.
+2023-12-01T19:59:53.556973+00:00 ERROR 'ansible_navigator.actions.collections._parse' /usr/share/ansible/collections/ansible_collections/redhat/rhv/roles/shutdown_env/meta/argument_specs.yml Failed to find argument_specs.yml for role in redhat.rhv.
+2023-12-01T19:59:53.556985+00:00 ERROR 'ansible_navigator.actions.collections._parse' /usr/share/ansible/collections/ansible_collections/redhat/rhv/roles/shutdown_env/meta/main.yml Failed to find main.yml for role in redhat.rhv.
+2023-12-01T19:59:53.556996+00:00 ERROR 'ansible_navigator.actions.collections._parse' /usr/share/ansible/collections/ansible_collections/redhat/rhv/roles/vm_infra/meta/argument_specs.yml Failed to find argument_specs.yml for role in redhat.rhv.
+2023-12-01T19:59:53.557007+00:00 ERROR 'ansible_navigator.actions.collections._parse' /usr/share/ansible/collections/ansible_collections/redhat/rhv/roles/vm_infra/meta/main.yml Failed to find main.yml for role in redhat.rhv.
+2023-12-01T19:59:53.557018+00:00 ERROR 'ansible_navigator.actions.collections._parse' /usr/share/ansible/collections/ansible_collections/redhat/satellite/roles/activation_keys/meta/argument_specs.yml Failed to find argument_specs.yml for role in redhat.satellite.
+2023-12-01T19:59:53.557030+00:00 ERROR 'ansible_navigator.actions.collections._parse' /usr/share/ansible/collections/ansible_collections/redhat/satellite/roles/activation_keys/meta/main.yml Failed to find main.yml for role in redhat.satellite.
+2023-12-01T19:59:53.557041+00:00 ERROR 'ansible_navigator.actions.collections._parse' /usr/share/ansible/collections/ansible_collections/redhat/satellite/roles/auth_sources_ldap/meta/argument_specs.yml Failed to find argument_specs.yml for role in redhat.satellite.
+2023-12-01T19:59:53.557052+00:00 ERROR 'ansible_navigator.actions.collections._parse' /usr/share/ansible/collections/ansible_collections/redhat/satellite/roles/auth_sources_ldap/meta/main.yml Failed to find main.yml for role in redhat.satellite.
+2023-12-01T19:59:53.557063+00:00 ERROR 'ansible_navigator.actions.collections._parse' /usr/share/ansible/collections/ansible_collections/redhat/satellite/roles/compute_profiles/meta/argument_specs.yml Failed to find argument_specs.yml for role in redhat.satellite.
+2023-12-01T19:59:53.557075+00:00 ERROR 'ansible_navigator.actions.collections._parse' /usr/share/ansible/collections/ansible_collections/redhat/satellite/roles/compute_profiles/meta/main.yml Failed to find main.yml for role in redhat.satellite.
+2023-12-01T19:59:53.557086+00:00 ERROR 'ansible_navigator.actions.collections._parse' /usr/share/ansible/collections/ansible_collections/redhat/satellite/roles/compute_resources/meta/argument_specs.yml Failed to find argument_specs.yml for role in redhat.satellite.
+2023-12-01T19:59:53.557096+00:00 ERROR 'ansible_navigator.actions.collections._parse' /usr/share/ansible/collections/ansible_collections/redhat/satellite/roles/compute_resources/meta/main.yml Failed to find main.yml for role in redhat.satellite.
+2023-12-01T19:59:53.557110+00:00 ERROR 'ansible_navigator.actions.collections._parse' /usr/share/ansible/collections/ansible_collections/redhat/satellite/roles/content_credentials/meta/argument_specs.yml Failed to find argument_specs.yml for role in redhat.satellite.
+2023-12-01T19:59:53.557121+00:00 ERROR 'ansible_navigator.actions.collections._parse' /usr/share/ansible/collections/ansible_collections/redhat/satellite/roles/content_credentials/meta/main.yml Failed to find main.yml for role in redhat.satellite.
+2023-12-01T19:59:53.557132+00:00 ERROR 'ansible_navigator.actions.collections._parse' /usr/share/ansible/collections/ansible_collections/redhat/satellite/roles/content_rhel/meta/argument_specs.yml Failed to find argument_specs.yml for role in redhat.satellite.
+2023-12-01T19:59:53.557143+00:00 ERROR 'ansible_navigator.actions.collections._parse' /usr/share/ansible/collections/ansible_collections/redhat/satellite/roles/content_rhel/meta/main.yml Failed to find main.yml for role in redhat.satellite.
+2023-12-01T19:59:53.557155+00:00 ERROR 'ansible_navigator.actions.collections._parse' /usr/share/ansible/collections/ansible_collections/redhat/satellite/roles/content_view_publish/meta/argument_specs.yml Failed to find argument_specs.yml for role in redhat.satellite.
+2023-12-01T19:59:53.557166+00:00 ERROR 'ansible_navigator.actions.collections._parse' /usr/share/ansible/collections/ansible_collections/redhat/satellite/roles/content_view_publish/meta/main.yml Failed to find main.yml for role in redhat.satellite.
+2023-12-01T19:59:53.557177+00:00 ERROR 'ansible_navigator.actions.collections._parse' /usr/share/ansible/collections/ansible_collections/redhat/satellite/roles/content_view_version_cleanup/meta/argument_specs.yml Failed to find argument_specs.yml for role in redhat.satellite.
+2023-12-01T19:59:53.557188+00:00 ERROR 'ansible_navigator.actions.collections._parse' /usr/share/ansible/collections/ansible_collections/redhat/satellite/roles/content_view_version_cleanup/meta/main.yml Failed to find main.yml for role in redhat.satellite.
+2023-12-01T19:59:53.557199+00:00 ERROR 'ansible_navigator.actions.collections._parse' /usr/share/ansible/collections/ansible_collections/redhat/satellite/roles/content_views/meta/argument_specs.yml Failed to find argument_specs.yml for role in redhat.satellite.
+2023-12-01T19:59:53.557211+00:00 ERROR 'ansible_navigator.actions.collections._parse' /usr/share/ansible/collections/ansible_collections/redhat/satellite/roles/content_views/meta/main.yml Failed to find main.yml for role in redhat.satellite.
+2023-12-01T19:59:53.557221+00:00 ERROR 'ansible_navigator.actions.collections._parse' /usr/share/ansible/collections/ansible_collections/redhat/satellite/roles/convert2rhel/meta/argument_specs.yml Failed to find argument_specs.yml for role in redhat.satellite.
+2023-12-01T19:59:53.557232+00:00 ERROR 'ansible_navigator.actions.collections._parse' /usr/share/ansible/collections/ansible_collections/redhat/satellite/roles/convert2rhel/meta/main.yml Failed to find main.yml for role in redhat.satellite.
+2023-12-01T19:59:53.557243+00:00 ERROR 'ansible_navigator.actions.collections._parse' /usr/share/ansible/collections/ansible_collections/redhat/satellite/roles/domains/meta/argument_specs.yml Failed to find argument_specs.yml for role in redhat.satellite.
+2023-12-01T19:59:53.557253+00:00 ERROR 'ansible_navigator.actions.collections._parse' /usr/share/ansible/collections/ansible_collections/redhat/satellite/roles/domains/meta/main.yml Failed to find main.yml for role in redhat.satellite.
+2023-12-01T19:59:53.557264+00:00 ERROR 'ansible_navigator.actions.collections._parse' /usr/share/ansible/collections/ansible_collections/redhat/satellite/roles/hostgroups/meta/argument_specs.yml Failed to find argument_specs.yml for role in redhat.satellite.
+2023-12-01T19:59:53.557274+00:00 ERROR 'ansible_navigator.actions.collections._parse' /usr/share/ansible/collections/ansible_collections/redhat/satellite/roles/hostgroups/meta/main.yml Failed to find main.yml for role in redhat.satellite.
+2023-12-01T19:59:53.557287+00:00 ERROR 'ansible_navigator.actions.collections._parse' /usr/share/ansible/collections/ansible_collections/redhat/satellite/roles/lifecycle_environments/meta/argument_specs.yml Failed to find argument_specs.yml for role in redhat.satellite.
+2023-12-01T19:59:53.557298+00:00 ERROR 'ansible_navigator.actions.collections._parse' /usr/share/ansible/collections/ansible_collections/redhat/satellite/roles/lifecycle_environments/meta/main.yml Failed to find main.yml for role in redhat.satellite.
+2023-12-01T19:59:53.557309+00:00 ERROR 'ansible_navigator.actions.collections._parse' /usr/share/ansible/collections/ansible_collections/redhat/satellite/roles/manifest/meta/argument_specs.yml Failed to find argument_specs.yml for role in redhat.satellite.
+2023-12-01T19:59:53.557320+00:00 ERROR 'ansible_navigator.actions.collections._parse' /usr/share/ansible/collections/ansible_collections/redhat/satellite/roles/manifest/meta/main.yml Failed to find main.yml for role in redhat.satellite.
+2023-12-01T19:59:53.557331+00:00 ERROR 'ansible_navigator.actions.collections._parse' /usr/share/ansible/collections/ansible_collections/redhat/satellite/roles/operatingsystems/meta/argument_specs.yml Failed to find argument_specs.yml for role in redhat.satellite.
+2023-12-01T19:59:53.557341+00:00 ERROR 'ansible_navigator.actions.collections._parse' /usr/share/ansible/collections/ansible_collections/redhat/satellite/roles/operatingsystems/meta/main.yml Failed to find main.yml for role in redhat.satellite.
+2023-12-01T19:59:53.557353+00:00 ERROR 'ansible_navigator.actions.collections._parse' /usr/share/ansible/collections/ansible_collections/redhat/satellite/roles/organizations/meta/argument_specs.yml Failed to find argument_specs.yml for role in redhat.satellite.
+2023-12-01T19:59:53.557363+00:00 ERROR 'ansible_navigator.actions.collections._parse' /usr/share/ansible/collections/ansible_collections/redhat/satellite/roles/organizations/meta/main.yml Failed to find main.yml for role in redhat.satellite.
+2023-12-01T19:59:53.557374+00:00 ERROR 'ansible_navigator.actions.collections._parse' /usr/share/ansible/collections/ansible_collections/redhat/satellite/roles/provisioning_templates/meta/argument_specs.yml Failed to find argument_specs.yml for role in redhat.satellite.
+2023-12-01T19:59:53.557386+00:00 ERROR 'ansible_navigator.actions.collections._parse' /usr/share/ansible/collections/ansible_collections/redhat/satellite/roles/provisioning_templates/meta/main.yml Failed to find main.yml for role in redhat.satellite.
+2023-12-01T19:59:53.557398+00:00 ERROR 'ansible_navigator.actions.collections._parse' /usr/share/ansible/collections/ansible_collections/redhat/satellite/roles/repositories/meta/argument_specs.yml Failed to find argument_specs.yml for role in redhat.satellite.
+2023-12-01T19:59:53.557409+00:00 ERROR 'ansible_navigator.actions.collections._parse' /usr/share/ansible/collections/ansible_collections/redhat/satellite/roles/repositories/meta/main.yml Failed to find main.yml for role in redhat.satellite.
+2023-12-01T19:59:53.557420+00:00 ERROR 'ansible_navigator.actions.collections._parse' /usr/share/ansible/collections/ansible_collections/redhat/satellite/roles/settings/meta/argument_specs.yml Failed to find argument_specs.yml for role in redhat.satellite.
+2023-12-01T19:59:53.557431+00:00 ERROR 'ansible_navigator.actions.collections._parse' /usr/share/ansible/collections/ansible_collections/redhat/satellite/roles/settings/meta/main.yml Failed to find main.yml for role in redhat.satellite.
+2023-12-01T19:59:53.557442+00:00 ERROR 'ansible_navigator.actions.collections._parse' /usr/share/ansible/collections/ansible_collections/redhat/satellite/roles/subnets/meta/argument_specs.yml Failed to find argument_specs.yml for role in redhat.satellite.
+2023-12-01T19:59:53.557453+00:00 ERROR 'ansible_navigator.actions.collections._parse' /usr/share/ansible/collections/ansible_collections/redhat/satellite/roles/subnets/meta/main.yml Failed to find main.yml for role in redhat.satellite.
+2023-12-01T19:59:53.557465+00:00 ERROR 'ansible_navigator.actions.collections._parse' /usr/share/ansible/collections/ansible_collections/redhat/satellite/roles/sync_plans/meta/argument_specs.yml Failed to find argument_specs.yml for role in redhat.satellite.
+2023-12-01T19:59:53.557476+00:00 ERROR 'ansible_navigator.actions.collections._parse' /usr/share/ansible/collections/ansible_collections/redhat/satellite/roles/sync_plans/meta/main.yml Failed to find main.yml for role in redhat.satellite.

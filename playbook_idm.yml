@@ -1,0 +1,14 @@
+---
+- name: Play que adiciona um registro de DNS no IdM
+  gather_facts: False
+  hosts: idm.automation.here
+  tasks:
+    - name: Adiciona o IP da máquina na zona de DNS do domínio automation.here
+      community.general.ipa_dnsrecord:
+        ipa_host: "{{ url_idm }}"
+        ipa_pass: "{{ senha_idm }}"
+        state: present
+        zone_name: "automation.here."
+        record_name: "{{ servidor }}.automation.here."
+        record_type: "A"
+        record_value: "{{ ip_servidor }}"
