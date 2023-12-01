@@ -19,6 +19,9 @@
   hosts: "{{ servidor }}.automation.here"
   tasks:
     - name: Registra a máqunia no IdM
+      vars:
+        ipaclient_mkhomedir: True
+        ipasssd_enable_dns_updates: True
       ansible.builtin.include_role:
         name: ipaclient
 
