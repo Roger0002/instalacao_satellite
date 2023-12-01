@@ -1,0 +1,7 @@
+[linux]
+satellite.automation.here
+idm.automation.here
+apache.automation.here
+
+[windows]
+windows.automation.here

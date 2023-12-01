@@ -1,0 +1,7 @@
+---
+- name: Play de teste
+  hosts: linux
+  gather_facts: False
+  tasks:
+    - name: Tarefa de teste
+      ansible.builtin.ping:
