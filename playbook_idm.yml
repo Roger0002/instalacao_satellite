@@ -10,7 +10,7 @@
         ipa_pass: "{{ senha_idm }}"
         state: present
         zone_name: "automation.here."
-        record_name: "{{ servidor }}.automation.here."
+        record_name: "{{ servidor }}"
         record_type: "A"
         record_value: "{{ ip_servidor }}"
 
