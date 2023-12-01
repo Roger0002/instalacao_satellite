@@ -13,3 +13,12 @@
         record_name: "{{ servidor }}.automation.here."
         record_type: "A"
         record_value: "{{ ip_servidor }}"
+
+- name: Play que registra a máquina no IdM
+  gather_facts: False
+  hosts: "{{ servidor }}.automation.here"
+  tasks:
+    - name: Registra a máqunia no IdM
+      ansible.builtin.include_role:
+        name: ipaclient
+
