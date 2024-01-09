@@ -1,6 +1,6 @@
 ---
 - name: Play que adiciona um registro de DNS no IdM
-  gather_facts: True
+  gather_facts: False
   hosts: localhost
   tasks:
     - name: Tarefa que adiciona um registro de DNS no IdM
@@ -15,7 +15,7 @@
         record_value: "{{ ip_servidor }}"
 
 - name: Play que registra a máquina no IdM
-  gather_facts: False
+  gather_facts: True
   hosts: "{{ servidor }}.automation.here"
   tasks:
     - name: Registra a máqunia no IdM
