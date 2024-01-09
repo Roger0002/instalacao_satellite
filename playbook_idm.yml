@@ -1,6 +1,6 @@
 ---
 - name: Play que adiciona um registro de DNS no IdM
-  gather_facts: False
+  gather_facts: True
   hosts: localhost
   tasks:
     - name: Tarefa que adiciona um registro de DNS no IdM
