@@ -22,6 +22,7 @@
       vars:
         ipaclient_mkhomedir: True
         ipasssd_enable_dns_updates: True
+        ipaadmin_password: "{{ senha_idm }}"
       ansible.builtin.include_role:
         name: ipaclient
 
