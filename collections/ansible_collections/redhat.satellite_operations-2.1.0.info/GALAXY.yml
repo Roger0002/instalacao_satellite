@@ -1,0 +1,45 @@
+download_url: https://console.redhat.com/api/automation-hub/v3/plugin/ansible/content/published/collections/artifacts/redhat-satellite_operations-2.1.0.tar.gz
+format_version: 1.0.0
+name: satellite_operations
+namespace: redhat
+server: https://console.redhat.com/api/automation-hub/content/published/
+signatures:
+- pubkey_fingerprint: 39B5D759361A97464C564A8FE1A4BD708A828AAD
+  pulp_created: '2023-09-05T14:23:39.368731Z'
+  signature: '-----BEGIN PGP SIGNATURE-----
+
+    Version: GnuPG v1
+
+
+    iQIcBAABCAAGBQJk9znfAAoJEOGkvXCKgoqtvvYP/RDyY/aAf5yjiXUEKO1j1Xft
+
+    +bHUsyeQlJuUuRjQYJejhhlnl+O5osEtnAW0OzdplOkR2OtVcrkNncW3NYHUQNTC
+
+    IBmsS1Amc0r1lDv600FBeg3qmyl636dcu/N+W58Tv8iELo8OyaVBxMDgcm9M2zsm
+
+    EVXWJqXRa+hHtDEISXKP286Oh6TzE4gxqbO5I6rtHBA+a5ru04OA0N39DVgkdY3O
+
+    +hlt3GvkmdmWOSA8QtMaiH9sD6SyF0NE7oXZ5+StAqzBNmWRsW2zQMeLynCKBxfa
+
+    wDGbjsq/7jqdWTrNpPlHRRzTm8+kXhF/m82lPzPOzJnZdheuvXqGGc/zWEAvle+/
+
+    BU71KFMKTwxSdabwPD+rZTfGUh6edrF5VaBelbyGczQ9ThbxqopEWi/b1++GzZes
+
+    r6qXGvQmNtoqnCy3xU6SlB1Mj/MiTPAulIVfITT/UoLz5/gbBVhVwpnsRt+pkD3m
+
+    9Rif99whLJZPqHqt4eKbkI5Y6sgKMiLWHDIVKS3Ol8shhCQpJJfIak9pl1LXsZNg
+
+    bLuXKGuTOia2t7YSRNPj2gcnGR7sLAuVB86XQx7By8rOdKIjZBywFwsNhNvu+Yjq
+
+    vC2nl86XUcWsrrl8pMacQnBX+qfLKxrCL0GNLxxcCTWpWCDT8SfaU1m9sLa1Ye0I
+
+    6/bum2pFrqOmw28LJ7c1
+
+    =ji2d
+
+    -----END PGP SIGNATURE-----
+
+    '
+  signing_service: null
+version: 2.1.0
+version_url: /api/automation-hub/content/published/v3/plugin/ansible/content/published/collections/index/redhat/satellite_operations/versions/2.1.0/

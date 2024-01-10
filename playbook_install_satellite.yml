@@ -1,0 +1,13 @@
+---
+
+- name: Playbook de instalação do Satellite
+  hosts: {{ servidor }}.automation.here
+  tasks:
+    - name: Role de instalação do Satellite
+      include_role: redhat.satellite_operations.installer
+      vars:
+        satellite_installer_scenario: satellite
+        satellite_installer_package: satellite-installer
+        satellite_installer_options:
+          - "--foreman-initial-organization {{ organizacao_satellite }}"
+          - "--foreman-initial-admin-password {{ senha_satellite }}"
