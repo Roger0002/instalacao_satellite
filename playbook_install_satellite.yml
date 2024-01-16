@@ -4,7 +4,8 @@
   hosts: "{{ servidor }}.automation.here"
   tasks:
     - name: Role de instalação do Satellite
-      include_role: redhat.satellite_operations.installer
+      include_role:
+        name: redhat.satellite_operations.installer
       vars:
         satellite_installer_scenario: satellite
         satellite_installer_package: satellite-installer
