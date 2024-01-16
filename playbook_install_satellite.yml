@@ -3,11 +3,6 @@
 - name: Playbook de instalação do Satellite
   hosts: "{{ servidor }}.automation.here"
   tasks:
-    - name: Desativa todos os repositórios
-      community.general.rhsm_repository:
-        name: '*'
-        state: "disabled"
-
     - name: Ativa os repositórios do Satellite
       community.general.rhsm_repository:
         name:
@@ -16,6 +11,7 @@
           - "satellite-{{ versao_satellite }}-for-rhel-8-x86_64-rpms"
           - "satellite-maintenance-{{ versao_satellite }}-for-rhel-8-x86_64-rpms"
         state: "enabled"
+      purge: True
 
     - name: Instala o pacote do Satellite e suas dependências
       ansible.builtin.dnf:
