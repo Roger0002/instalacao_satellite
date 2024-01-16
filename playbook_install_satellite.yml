@@ -16,7 +16,7 @@
     - name: Ativa o módulo do satellite (@satellite:el8)
       ansible.builtin.dnf:
         name: "@satellite:el8"
-        state: "enabled"
+        state: "present"
       failed_when: False
 
     - name: Instala o pacote do Satellite e suas dependências
