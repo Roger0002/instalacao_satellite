@@ -3,6 +3,20 @@
 - name: Playbook de instalação do Satellite
   hosts: "{{ servidor }}.automation.here"
   tasks:
+    - name: Desativa todos os repositórios
+      community.general.rhsm_repository:
+        name: '*'
+        state: "disabled"
+
+    - name: Ativa os repositórios do Satellite
+      community.general.rhsm_repository:
+        name:
+          - "rhel-8-for-x86_64-baseos-rpms"
+          - "rhel-8-for-x86_64-appstream-rpms"
+          - "satellite-{{ versao_satellite }}-for-rhel-8-x86_64-rpms"
+          - "satellite-maintenance-{{ versao_satellite }}-for-rhel-8-x86_64-rpms"
+        state: "absent"
+
     - name: Role de instalação do Satellite
       include_role:
         name: redhat.satellite_operations.installer
