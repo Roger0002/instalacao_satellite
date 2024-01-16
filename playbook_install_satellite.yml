@@ -11,7 +11,7 @@
           - "satellite-{{ versao_satellite }}-for-rhel-8-x86_64-rpms"
           - "satellite-maintenance-{{ versao_satellite }}-for-rhel-8-x86_64-rpms"
         state: "enabled"
-      purge: True
+        purge: True
 
     - name: Instala o pacote do Satellite e suas dependências
       loop:
