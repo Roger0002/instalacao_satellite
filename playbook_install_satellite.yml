@@ -14,10 +14,8 @@
         purge: True
 
     - name: Ativa o módulo do satellite (@satellite:el8)
-      ansible.builtin.dnf:
-        name: '@satellite:el8'
-        state: "present"
-      ignore_errors: True
+      ansible.builtin.shell: "/usr/bin/dnf module enable satellite:el8 -y"
+      failed_when: False
 
     - name: Instala o pacote do Satellite e suas dependências
       ansible.builtin.dnf:
