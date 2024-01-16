@@ -13,12 +13,14 @@
         state: "enabled"
         purge: True
 
-    - name: Instala o pacote do Satellite e suas dependências
-      loop:
-        - "@satellite:el8"
-        - "satellite"
+    - name: Ativa o módulo do satellite (@satellite:el8)
       ansible.builtin.dnf:
-        name: "{{ item }}"
+        name: "@satellite:el8"
+        state: "present"
+
+    - name: Instala o pacote do Satellite e suas dependências
+      ansible.builtin.dnf:
+        name: "satellite"
         state: "latest"
 
     - name: Role de instalação do Satellite
