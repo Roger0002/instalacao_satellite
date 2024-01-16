@@ -1,7 +1,7 @@
 ---
 
 - name: Playbook de instalação do Satellite
-  hosts: {{ servidor }}.automation.here
+  hosts: "{{ servidor }}.automation.here"
   tasks:
     - name: Role de instalação do Satellite
       include_role: redhat.satellite_operations.installer
