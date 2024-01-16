@@ -15,7 +15,7 @@
 
     - name: Ativa o módulo do satellite (@satellite:el8)
       ansible.builtin.dnf:
-        name: "@satellite:el8"
+        name: '@satellite:el8'
         state: "present"
       ignore_errors: True
 
