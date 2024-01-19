@@ -1,5 +1,5 @@
 ---
-- name: Play de teste (criado para apoiar o banco BV)
+- name: Play de teste (criado em conjunto com o Regis)
   hosts: localhost
   gather_facts: False
   tasks:
