@@ -1,0 +1,17 @@
+---
+- name: Play de teste (criado para apoiar o banco BV)
+  hosts: localhost
+  gather_facts: False
+  tasks:
+
+    # Essa task simula a saída do comando do Veritas InfoScale que mostra o status do cluster
+    - name: Exibe a saída do Veritas
+      ansible.builtin.shell: "cat /tmp/saida_veritas"
+      register: win_comand_out
+
+    - name: Vamos ver
+      ansible.builtin.debug:
+        msg: "Passou Online: {{ win_comand_out.stdout_lines }}"
+      when:
+      - win_comand_out is search('ONLINE')
+
