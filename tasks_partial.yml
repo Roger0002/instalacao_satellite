@@ -1,0 +1,13 @@
+---
+
+- name: Define variável intermediária no processo (PARTIAL)
+  ansible.builtin.set_fact:
+    linha_com_partial: "{{ item }}"
+
+- name: Define outra intermediária no processo (PARTIAL)
+  ansible.builtin.set_fact:
+    servidor: "{{ linha_com_partial | regex_search('...-POCVERITAS.') }}"
+
+- name: Alimenta a lista lista_partial
+  ansible.builtin.set_fact:
+    lista_partial: "{{ lista_partial + [servidor] }}"

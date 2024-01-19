@@ -1,0 +1,14 @@
+---
+
+- name: Define variável intermediária no processo (ONLINE)
+  ansible.builtin.set_fact:
+    linha_com_online: "{{ item }}"
+
+- name: Define outra intermediária no processo (ONLINE)
+  ansible.builtin.set_fact:
+    servidor: "{{ linha_com_online | regex_search('...-POCVERITAS.') }}"
+
+- name: Alimenta a lista lista_online
+  ansible.builtin.set_fact:
+    lista_online: "{{ lista_online + [servidor] }}"
+

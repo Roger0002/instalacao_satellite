@@ -1,7 +1,48 @@
 ---
-- name: Play de teste
-  hosts: linux
+- name: Play de teste (criado para apoiar o banco BV)
+  hosts: localhost
   gather_facts: False
   tasks:
-    - name: Tarefa de teste
-      ansible.builtin.ping:
+
+    # Essa task simula a saída do comando do Veritas InfoScale que mostra o status do cluster
+    - name: Exibe a saída do Veritas
+      ansible.builtin.shell: "cat /tmp/saida_veritas"
+      register: win_comand_out
+
+    # Essa task cria duas listas vazias que receberam os servidores nos estados de partial e online
+    # Ao final da execução, essas listas deverão estar populadas com os servidores nesses estados
+    - name: Criação de uma lista de controle para os partials e os online
+      ansible.builtin.set_fact:
+        lista_partial: []
+        lista_online: []
+
+    # Essa task percorre todas as linhas da saída do comando de status do Veritas InfoScale e, para
+    # cada uma, executa um conjunto de tasks presente no arquivo tasks_partial.yml. As tasks presentes
+    # nesse arquivo vão garantir que a lista lista_partial, criada no passo anterior, seja preenchida
+    # com os servidores no status de PARTIAL
+    - name: Construção das listas de servidores em PARTIAL
+      loop: "{{ win_comand_out.stdout_lines }}"
+      when: item is search('PARTIAL')
+      ansible.builtin.include_tasks: tasks_partial.yml
+
+    # Essa task faz a mesma coisa que a task anterior, mas ao inves de lidar com a lista lista_partial,
+    # lidará com a lista lista_online, que deverá conter todos os servidores nesse status
+    - name: Construção das listas de servidores em ONLINE
+      loop: "{{ win_comand_out.stdout_lines }}"
+      when: item is search('ONLINE')
+      ansible.builtin.include_tasks: tasks_online.yml
+
+    # Uma vez que todo o processamento pesado foi feito nas duas últimas tasks, chegou a hora de exibir
+    # as listas. Essa task exibe os servidores em PARTIAL
+    - name: Exibe a lista de servidores em PARTIAL
+      when: lista_partial | length > 0
+      ansible.builtin.debug:
+        msg: "Lista de servidores marcados como PARTIAL: {{ lista_partial }}"
+
+    # Já exibe os servidores no status online. Sem mistérios.
+    - name: Exibe a lista de servidores em ONLINE
+      when: lista_online | length > 0
+      ansible.builtin.debug:
+        msg: "Lista de servidores marcados como ONLINE: {{ lista_online }}"
+
+
