@@ -1,5 +1,5 @@
 ---
-- name: Play de teste (criado em conjunto com o Regis)
+- name: Play de teste
   hosts: localhost
   gather_facts: False
   tasks:
