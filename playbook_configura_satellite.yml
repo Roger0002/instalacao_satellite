@@ -17,11 +17,11 @@
 
     - name: Ativa repositórios
       vars:
-        foreman_server_url: "https://satellite.automation.here"
-        foreman_username: "admin"
-        foreman_password: "RegisTAMfodao"
-        foreman_organization: "RogerOrg"
-        foreman_products:
+        server_url: "https://satellite.automation.here"
+        username: "admin"
+        password: "RegisTAMfodao"
+        organization: "RogerOrg"
+        satellite_products:
           - name: Red Hat Enterprise Linux Server
             repository_sets:
               - name: Red Hat Enterprise Linux 7 Server (RPMs)
