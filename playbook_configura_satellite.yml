@@ -15,7 +15,7 @@
         manifest_path: "manifest_manifest_Simulacao_Automation_20240120T013327Z.zip"
         validate_certs: False
 
-    - name: Ativa repositórios
+    - name: Ativa repositórios corretos
       vars:
         satellite_server_url: "https://satellite.automation.here"
         satellite_username: "admin"
