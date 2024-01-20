@@ -17,10 +17,10 @@
 
     - name: Ativa repositórios
       vars:
-        server_url: "https://satellite.automation.here"
-        username: "admin"
-        password: "RegisTAMfodao"
-        organization: "RogerOrg"
+        satellite_server_url: "https://satellite.automation.here"
+        satellite_username: "admin"
+        satellite_password: "RegisTAMfodao"
+        satellite_organization: "RogerOrg"
         satellite_products:
           - name: Red Hat Enterprise Linux Server
             repository_sets:
