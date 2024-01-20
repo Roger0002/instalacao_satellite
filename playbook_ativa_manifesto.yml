@@ -1,0 +1,15 @@
+---
+
+- name: Playbook de preparação do Satellite
+  #hosts: "{{ servidor }}.automation.here"
+  hosts: localhost
+  gather_facts: False
+  tasks:
+    - name: Importa o manifesto
+      redhat.satellite.subscription_manifest:
+        username: "admin"
+        password: "RegisTAMfodao"
+        server_url: "https://satellite.automation.here"
+        organization: "RogerOrg"
+        state: present
+        manifest_path: "manifest_manifest_Simulacao_Automation_20240120T013327Z.zip"
