@@ -14,3 +14,34 @@
         state: present
         manifest_path: "manifest_manifest_Simulacao_Automation_20240120T013327Z.zip"
         validate_certs: False
+
+    - name: Ativa repositórios
+      vars:
+        foreman_server_url: "https://satellite.automation.here"
+        foreman_username: "admin"
+        foreman_password: "RegisTAMfodao"
+        foreman_organization: "RogerOrg"
+        foreman_products:
+          - name: Red Hat Enterprise Linux Server
+            repository_sets:
+              - name: Red Hat Enterprise Linux 7 Server (RPMs)
+                basearch: x86_64
+                releasever: 7Server
+              - name: Red Hat Enterprise Linux 7 Server - Extras (RPMs)
+                basearch: x86_64
+              - name: Red Hat Enterprise Linux 7 Server - Optional (RPMs)
+                basearch: x86_64
+                releasever: 7Server
+          - name: Red Hat Enterprise Linux for x86_64
+            repository_sets:
+              - name: Red Hat Enterprise Linux 8 for x86_64 - BaseOS (RPMs)
+                releasever: 8
+              - name: Red Hat Enterprise Linux 8 for x86_64 - AppStream (RPMs)
+                releasever: 8
+              - name: Red Hat Enterprise Linux 9 for x86_64 - BaseOS (RPMs)
+                releasever: 9
+              - name: Red Hat Enterprise Linux 9 for x86_64 - BaseOS (RPMs)
+                releasever: 9
+      ansible.builtin.include_role:
+        name: redhat.satellite.repositories
+
