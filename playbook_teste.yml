@@ -1,12 +1,13 @@
 ---
 - name: Play de teste
   hosts: localhost
-  gather_facts: False
+  gather_facts: false
   tasks:
 
     # Essa task simula a saída do comando do Veritas InfoScale que mostra o status do cluster
-    - name: Exibe a saída do Veritas
-      ansible.builtin.shell: "cat /tmp/saida_veritas"
+    - name: Captura a saída do que seria um hastatus -sum
+      ansible.builtin.debug:
+        msg: "{{ lookup('file', '/tmp/saida_veritas') }}"
       register: win_comand_out
 
     # Essa task cria duas listas vazias que receberam os servidores nos estados de partial e online
@@ -21,14 +22,14 @@
     # nesse arquivo vão garantir que a lista lista_partial, criada no passo anterior, seja preenchida
     # com os servidores no status de PARTIAL
     - name: Construção das listas de servidores em PARTIAL
-      loop: "{{ win_comand_out.stdout_lines }}"
+      loop: "{{ win_comand_out.msg | split('\n') }}"
       when: item is search('PARTIAL')
       ansible.builtin.include_tasks: tasks_partial.yml
 
     # Essa task faz a mesma coisa que a task anterior, mas ao inves de lidar com a lista lista_partial,
     # lidará com a lista lista_online, que deverá conter todos os servidores nesse status
     - name: Construção das listas de servidores em ONLINE
-      loop: "{{ win_comand_out.stdout_lines }}"
+      loop: "{{ win_comand_out.msg | split('\n') }}"
       when: item is search('ONLINE')
       ansible.builtin.include_tasks: tasks_online.yml
 
@@ -44,5 +45,4 @@
       when: lista_online | length > 0
       ansible.builtin.debug:
         msg: "Lista de servidores marcados como ONLINE: {{ lista_online }}"
-
-
+...
